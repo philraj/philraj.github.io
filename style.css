@@ -1,28 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700italic);
 
 .my-name {
-    font-size: 24px;
+    font-size: 5vw;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
 }
 
+.subtitle {
+    font-size: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Lato', sans-serif;
+    /*background: url('white_wave.png');*/
+    background: #dddddd;
 }
 
 header {
-    text-shadow: 0 0 2px white;
+    position: relative;
+    text-shadow: 0 0 0.5vw white;
     background-color: #aaaaaa;
-    border-radius: 15px;
-    padding: 1px 10px;
-    margin: 30px auto;
-    width: 200px;
-    box-shadow: 0 0 5px 5px #aaaaaa,
-                0 15px 5px 2px rgba(0,0,0,0.15),
-                0 -15px 5px 2px rgba(0,0,0,0.15),
-                10px 0 5px 4px rgba(0,0,0,0.15),
-                -10px 0 5px 4px rgba(0,0,0,0.15);
+    border-radius: 5vw;
+    padding: 1vw 10vw;
+    margin: 10vw auto 10vw;
+    width: 60vw;
+    box-shadow: 0 0 1vw 1vw #aaaaaa,
+                0 3vw 1vw 1vw rgba(0,0,0,0.15),
+                0 -3vw 1vw 1vw rgba(0,0,0,0.15),
+                3vw 0 1vw 1vw rgba(0,0,0,0.15),
+                -3vw 0 1vw 1vw rgba(0,0,0,0.15);
     text-align: center;
     color: white;
+}
+
+.social {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    left: -1vw;
+}
+
+.social li {
+    display: inline-block;
+    list-style: none;
+    margin: 3vw;
+}
+
+img {
+    box-shadow: 0 0 3vw 1vw rgba(0,0,0,0.3);
+    border-radius: 50vw;
 }
