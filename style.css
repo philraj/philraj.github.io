@@ -7,7 +7,9 @@
     font-style: italic;
     padding-bottom: 1vh;
     border-bottom: 1px solid #999999;
-    box-shadow: 0px 3vh 4vh -3vh black;
+    /*box-shadow: 0px 3vh 4vh -3vh black;*/
+    padding-left: 0;
+    margin-left: 0;
     margin-bottom: 8vh;
 }
 
@@ -50,10 +52,10 @@ header {
                 3vw 0 1vw 1vw rgba(0,0,0,0.15),
                 -3vw 0 1vw 1vw rgba(0,0,0,0.15);}
     100% {box-shadow: 0 0 1.5vw 1.5vw #aaaaaa,
-                0 4.5vw 1.5vw 1.5vw rgba(0,0,0,0.07),
-                0 -4.5vw 1.5vw 1.5vw rgba(0,0,0,0.07),
-                4.5vw 0 1.5vw 1.5vw rgba(0,0,0,0.07),
-                -4.5vw 0 1.5vw 1.5vw rgba(0,0,0,0.07);}
+                0 4.5vw 1.5vw 1.5vw rgba(0,200,0,0.07),
+                0 -4.5vw 1.5vw 1.5vw rgba(0,200,0,0.07),
+                4.5vw 0 1.5vw 1.5vw rgba(200,0,0,0.07),
+                -4.5vw 0 1.5vw 1.5vw rgba(200,0,0,0.07);}
 }
 
 .social {
@@ -70,12 +72,23 @@ header {
 }
 
 li img {
-    box-shadow: 0 0 2vw 0.5vw rgba(0,0,0,0.3);
-    border-radius: 50vw;
+    box-shadow: 0 0 1vw 1vw rgba(0,0,0,0.2);
+    border-radius: 50%;
     max-width: 65px;
     transition: transform 0.6s;
 }
 
 li img:hover {
     transform: rotate3d(0,0,1,720deg);
+}
+
+.cat {
+    position: absolute;
+    left: 2vw;
+    top: 3vw;
+    /*box-shadow: 0 0.5vw 2vw 0.5vw rgba(0,0,0,0.5);*/
+    max-height: 20vh;
+    height: auto;
+    border-radius:50%;
+    margin-right: 0;
 }
