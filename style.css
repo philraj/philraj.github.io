@@ -76,7 +76,7 @@ li img:hover {
     transform: rotate3d(0,0,1,720deg);
 }
 
-.cat {
+.phil {
     position: absolute;
     left: 1vw;
     top: 1vh;
